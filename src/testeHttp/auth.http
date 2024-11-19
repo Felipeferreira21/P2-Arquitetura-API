@@ -1,0 +1,10 @@
+@url = https://8080-felipeferre-p2arquitetu-nx87p7ea4lf.ws-us116.gitpod.io
+
+
+POST {{url}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario": "admin",
+    "senha": "admin"
+}
